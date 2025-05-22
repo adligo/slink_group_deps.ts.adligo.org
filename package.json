@@ -1,0 +1,33 @@
+{
+  "author": "Scott Morgan",
+  "bugs": {
+    "url": "https://github.com/adligo/slink_group_deps.ts.adligo.org/issues"
+  },
+  "description": "This is a simple wrapper project for building fabricate (fab.ts.adligo.org).",
+  "dependencies": {
+	"@types/node": "^22.15.21",
+    "fs": "^0.0.1-security",
+    "gulp": "^4.0.2",
+    "path": "^0.12.7",
+	"typescript": "^5.0.4"
+  },
+  "homepage": "https://github.com/adligo/slink_group_deps.ts.adligo.org#readme",
+  "keywords": [
+    "ant",
+    "build",
+	"dependencies",
+    "javascript",
+    "gradle",
+	"maven",
+	"slink",
+	"slink_group"
+  ],
+  "license": "Apache-2.0",
+  "name": "@ts.adligo.org/slink_group_deps",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adligo/slink_group_deps.ts.adligo.org.git"
+  },
+  "type": "module",
+  "version": "1.0.7"
+}

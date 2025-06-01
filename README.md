@@ -28,7 +28,7 @@ top-folder
   | -> slink_group_deps.ts.adligo.org
   | -> slink_group.ts.adligo.org
   |    | -> slink_tests.ts.adligo.org
-  |    | -> slink.ts.adligo.org
+  |    | -> slink.mts.adligo.org
   etc
   
 Alternatively, this may be overridden for build servers the absolute path of this target directory where the node_modules are actually installed can be linked to using a custom environment variables.  For example the build script could include;

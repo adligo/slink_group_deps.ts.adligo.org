@@ -44,6 +44,7 @@
   "type": "module",
   "version": "1.0.7",
   "devDependencies": {
-    "@istanbuljs/nyc-config-typescript": "^1.0.2"
+    "@istanbuljs/nyc-config-typescript": "^1.0.2",
+    "c8": "^10.1.3"
   }
 }

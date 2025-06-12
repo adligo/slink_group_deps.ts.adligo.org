@@ -4,7 +4,7 @@ export PATH=$PATH:$NODE_HOME/bin
 which node
 echo npm is `npm -v`
 
-if [[ -d slink_group_deps.ts.adligo.org ]]; then 
+if [ -d slink_group_deps.ts.adligo.org ]; then 
   rm -fr slink_group_deps.ts.adligo.org
 fi
 
@@ -14,6 +14,7 @@ cd slink_group_deps.ts.adligo.org
 npm i
 
 echo now setup your COMMON_NODE_MODULES environment variable in the slink_group.ts.adligo.org
-echo projects Jenkins build to
-pwd
+dir=`pwd`
+echo projects Jenkins build to $dir/node_modules
+
 

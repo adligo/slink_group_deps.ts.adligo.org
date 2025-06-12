@@ -5,20 +5,25 @@
   },
   "description": "This is a simple wrapper project for building fabricate (fab.ts.adligo.org).",
   "dependencies": {
-    "@types/node": "^22.15.21",
     "@types/jest": "^29.4.0",
+    "@types/node": "^22.15.21",
     "@types/uuid": "^9.0.0",
     "child_process": "^1.0.2",
     "fs": "^0.0.1-security",
     "gulp": "^4.0.2",
+    "jest": "^29.4.1",
     "npm": "^11.4.0",
     "path": "^0.12.7",
-    "typescript": "^5.0.4",
-    "jest": "^29.4.1",
     "ts-jest": "^29.0.5",
-    "ts-node": "^10.9.1"
-
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
   },
+  "dependenciesBuiltLocally": [
+    "@ts.adligo.org/i_io",
+    "@ts.adligo.org/i_obj",
+    "@ts.adligo.org/i_strings",
+    "@ts.adligo.org/tests4ts"
+  ],
   "homepage": "https://github.com/adligo/slink_group_deps.ts.adligo.org#readme",
   "keywords": [
     "ant",
@@ -37,5 +42,8 @@
     "url": "git+https://github.com/adligo/slink_group_deps.ts.adligo.org.git"
   },
   "type": "module",
-  "version": "1.0.7"
+  "version": "1.0.7",
+  "devDependencies": {
+    "@istanbuljs/nyc-config-typescript": "^1.0.2"
+  }
 }

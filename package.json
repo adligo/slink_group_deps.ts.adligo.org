@@ -3,7 +3,7 @@
   "bugs": {
     "url": "https://github.com/adligo/slink_group_deps.ts.adligo.org/issues"
   },
-  "description": "This is a simple wrapper project for building fabricate (fab.ts.adligo.org).",
+  "description": "This is contains the dependencies for the SLink Group (slink_group.ts.adligo.org).",
   "dependencies": {
     "@types/jest": "^29.4.0",
     "@types/node": "^22.15.21",
